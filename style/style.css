@@ -13,7 +13,6 @@
     padding: 20px;
     max-width: 1200px;
     margin:0 auto;
-    border: 1px solid black;/**/
 }
 .float-left{
     float: left;
@@ -25,30 +24,32 @@
 }
 header{
     text-align: center;
-    border: 1px solid red;/**/
+    padding-top: 10px;
 }
 header>h1{
     color: var(--color-title);
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 article{
-    border: 1px solid green;/**/
     background-color: var(--color-cards);
-    width: calc(100%/3-20px);
+    width: calc(100% / 3 - 20px);
     margin: 50px 20px 0 0;
-    min-width: 200px;
+    min-width: 320px;
+}
+.photo-card{
+    min-width: 95px;
+    width: calc(28% - 10px);
+    margin-right: 10px;
 }
 .photo{
     display: block;
-    min-width: 50px;
-    width: 70px;
-    margin-right: 10px;
+    width: 100%;
 }
-
 .text-card{
+    padding-top: 5px;
     color:white;
-    line-height: 25px;
+    line-height: 28px;
     margin-right: 10px;
 }
 .text-card>.email{
