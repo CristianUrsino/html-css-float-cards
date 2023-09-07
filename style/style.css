@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 :root{
     --color-title:#E53170;
@@ -9,7 +10,49 @@
     --color-email:#4DB9D0;
 }
 .wrapper{
+    padding: 20px;
     max-width: 1200px;
     margin:0 auto;
-    border: 1px solid black;
+    border: 1px solid black;/**/
 }
+.float-left{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    text-align: center;
+    border: 1px solid red;/**/
+}
+header>h1{
+    color: var(--color-title);
+    margin-bottom: 40px;
+}
+
+article{
+    border: 1px solid green;/**/
+    background-color: var(--color-cards);
+    width: calc(100%/3-20px);
+    margin: 50px 20px 0 0;
+    min-width: 200px;
+}
+.photo{
+    display: block;
+    min-width: 50px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.text-card{
+    color:white;
+    line-height: 25px;
+    margin-right: 10px;
+}
+.text-card>.email{
+    font-size: 12px;
+    color: var(--color-email);
+}
+
