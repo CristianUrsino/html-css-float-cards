@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --color-title:#E53170;
+    --color-cards:#0F0E17;
+    --color-email:#4DB9D0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin:0 auto;
+    border: 1px solid black;
+}
