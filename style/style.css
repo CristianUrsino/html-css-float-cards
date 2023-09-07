@@ -38,8 +38,8 @@ article{
     min-width: 320px;
 }
 .photo-card{
-    min-width: 95px;
-    width: calc(28% - 10px);
+    min-width: 85px;
+    width: calc(100% / 4 - 10px);
     margin-right: 10px;
 }
 .photo{
@@ -49,7 +49,7 @@ article{
 .text-card{
     padding-top: 5px;
     color:white;
-    line-height: 28px;
+    line-height: 25px;
     margin-right: 10px;
 }
 .text-card>.email{
